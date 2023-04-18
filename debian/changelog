@@ -1,0 +1,5 @@
+python3-flask-apscheduler (1.12.4-1) bookworm-wikimedia; urgency=medium
+
+  * Initial release.
+
+ -- John Bond <jbond@wikimedia.org>  Tue, 18 Apr 2023 17:21:09 +0200

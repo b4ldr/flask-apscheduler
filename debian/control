@@ -1,0 +1,25 @@
+Source: python3-flask-apscheduler
+Section: python
+Priority: optional
+Maintainer: John Bond <jbond@wikimedia.org>
+Uploaders: John Bond <jbond@wikimedia.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-flask,
+               python3-apscheduler,
+               python3-dateutil,
+               python3-nose <!nocheck>,
+Standards-Version: 4.5.1
+Homepage: https://github.com/viniciuschiele/flask-apscheduler
+Vcs-Git: https://github.com/viniciuschiele/flask-apscheduler
+Vcs-Browser: https://github.com/viniciuschiele/flask-apscheduler
+Rules-Requires-Root: no
+
+Package: python3-flask-apscheduler
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends}
+Description: Flask-APScheduler is a Flask extension which adds support for the
+  APScheduler.
